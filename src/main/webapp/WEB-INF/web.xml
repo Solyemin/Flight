@@ -12,7 +12,8 @@
   
   <context-param>
   <param-name>URL</param-name>
-  <param-value>jdbc:mysql://localhost:3306/FlightSystem?</param-value>
+  <!-- <param-value>jdbc:mysql://localhost:3306/FlightSystem?</param-value> -->
+  <param-value>jdbc:postgresql://localhost:5432/FlightSystem?</param-value>
   </context-param>
   
   <context-param>
@@ -22,12 +23,14 @@
   
   <context-param>
   <param-name>Username</param-name>
+  <!--  <param-value>root</param-value>-->
   <param-value>root</param-value>
   </context-param>
   
   <context-param>
   <param-name>password</param-name>
-  <param-value>9406</param-value>
+  <!--<param-value>9406</param-value>-->
+  <param-value>root</param-value>
   </context-param>
   
   <listener>
